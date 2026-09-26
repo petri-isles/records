@@ -1,9 +1,9 @@
 # EP01 — The Invisible Thief — Pre-registration
 
 - Written: 2026-09-26 12:50 (UTC+3); revised 18:50 (UTC+3) for the two-repository setup, before anything was published.
-- **Public record:** github.com/petri-isles/records — this file's commit: `<filled in after the commit>`
+- **Public record:** github.com/petri-isles/records — pre-registration commit `81971d4bab1a5faceaf7347cb0638d4f46c182c9` (pushed 2026-09-26, before the post below)
 - **Engine commitment (private):** engine tree `7079cc1d3a6b4510f7b58aa5785ff5c5d1b22f20`, from commit `48af0f80a888bc1f02c6a03e5014c83f68f4ec70` of the private studio repository (github.com/petri-isles/studio). Every EP01 run header must show exactly this engine tree (see `METHOD.md`).
-- Public post: `<link>` — posted at `<time>` *(filled in by Kerim at checkpoint B; the run does not start before)*
+- **Public post:** https://github.com/petri-isles/records/issues/1 — posted 2026-09-26T15:54:20Z (18:54 UTC+3) by Kerim; the run starts after this
 - World: the Petri Isles, genesis state (no earlier episode). Channel: Petri Isles.
 
 ## Question (one sentence)
@@ -76,6 +76,10 @@ Resolution: **hit (1)** if 1.1 ≤ R < 1.5; **partial (0.5)** if R ≥ 1.5 (righ
 > Hypothesis: theft attempts rise by at least 50%. Under +10% counts as refuted; anything between is inconclusive.
 > Plan and rules: github.com/petri-isles/records (commit `<hash>`). The code is committed by hash for later audit. Every log will be public.
 > Would you steal if no one could ever know? Predict what they did in the comments.
+
+## Amendments before the run (append-only, dated)
+- **2026-09-26 19:00 (UTC+3), before any EP01 run — timing of publication only; the design is unchanged.** Decided by Kerim after the post above: the EP01 run logs and the GitHub Release (with `SHA256SUMS.txt`) are published on the day the EP01 video goes public on YouTube, not before. Until then the logs stay private, and their checksums are fixed in the private studio repository as soon as the runs finish, so the published files can be shown to be the ones produced now.
+- The same edit filled in the commit hash and the public post above (placeholders in commit `81971d4`).
 
 ## Deviations (append-only, dated)
 *(none)*
