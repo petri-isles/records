@@ -1,0 +1,235 @@
+# Lexicon watch - "reinvent or remember?" (series bible §6). Frozen per episode (hash in the run header).
+# Matching: case-insensitive, whole words / whole phrases, over every islander text in the log
+# (reasoning, say, laws, drawings, dying words, stories, retellings).
+# outside_world: real-world names and modern things the islanders cannot know -> flagged as "remembered".
+#   Includes "petri": the audience-facing name of the world, which the islanders never hear.
+# institutions: generic institution words -> first appearance per island is a milestone, not a leak.
+# The engine also refuses to give a newborn a name on either list, and tests assert that no prompt,
+# rule text or genesis file contains an outside_world term.
+version: 1
+
+outside_world:
+  # the world's audience-facing name and meta words
+  - petri
+  - simulation
+  - language model
+  - chatgpt
+  - openai
+  - qwen
+  - llm
+  - artificial intelligence
+  # places and peoples
+  - rome
+  - roman
+  - romans
+  - greece
+  - greek
+  - egypt
+  - egyptian
+  - china
+  - chinese
+  - india
+  - japan
+  - japanese
+  - europe
+  - european
+  - africa
+  - african
+  - america
+  - american
+  - asia
+  - asian
+  - england
+  - english
+  - britain
+  - british
+  - france
+  - french
+  - germany
+  - german
+  - spain
+  - spanish
+  - italy
+  - italian
+  - russia
+  - russian
+  - arabia
+  - arabic
+  - persia
+  - persian
+  - babylon
+  - mesopotamia
+  - athens
+  - sparta
+  - jerusalem
+  - mecca
+  - london
+  - paris
+  - hawaii
+  - polynesia
+  - polynesian
+  - galapagos
+  - pacific ocean
+  - atlantic
+  - mediterranean
+  - viking
+  - vikings
+  - aztec
+  - inca
+  - atlantis
+  - olympus
+  # religions, scriptures and mythic figures
+  - jesus
+  - christ
+  - christian
+  - christianity
+  - bible
+  - biblical
+  - islam
+  - muslim
+  - quran
+  - koran
+  - allah
+  - buddha
+  - buddhist
+  - buddhism
+  - hindu
+  - hinduism
+  - krishna
+  - shiva
+  - zeus
+  - odin
+  - thor
+  - poseidon
+  - neptune
+  - apollo
+  - noah
+  - moses
+  - abraham
+  - eden
+  - satan
+  - jehovah
+  - yahweh
+  - torah
+  - jewish
+  - judaism
+  # people
+  - marx
+  - plato
+  - gyges           # EP01's source thought experiment (ring of Gyges, Plato's Republic II)
+  - aristotle
+  - socrates
+  - caesar
+  - napoleon
+  - shakespeare
+  - darwin
+  - einstein
+  - newton
+  - confucius
+  - gandhi
+  # real money and markets
+  - dollar
+  - dollars
+  - euro
+  - euros
+  - yen
+  - bitcoin
+  - crypto
+  - cryptocurrency
+  - stock market
+  - wall street
+  # modern technology
+  - internet
+  - computer
+  - computers
+  - smartphone
+  - telephone
+  - phone
+  - electricity
+  - car
+  - cars
+  - airplane
+  - gun
+  - guns
+  - rifle
+  - plastic
+  - radio
+  - television
+  - robot
+  - robots
+  # named political systems
+  - democracy
+  - democratic
+  - communism
+  - communist
+  - capitalism
+  - capitalist
+  - socialism
+  - socialist
+  - republic
+  - parliament
+  - senate
+  - monarchy
+  - feudal
+
+institutions:
+  - money
+  - coin
+  - coins
+  - currency
+  - market
+  - marketplace
+  - tax
+  - taxes
+  - tribute
+  - king
+  - queen
+  - chief
+  - chieftain
+  - ruler
+  - leader
+  - council
+  - vote
+  - voting
+  - election
+  - temple
+  - shrine
+  - priest
+  - priestess
+  - god
+  - gods
+  - goddess
+  - spirit
+  - spirits
+  - ritual
+  - prayer
+  - pray
+  - court
+  - judge
+  - trial
+  - prison
+  - jail
+  - punishment
+  - contract
+  - debt
+  - loan
+  - wage
+  - wages
+  - rent
+  - property
+  - owner
+  - army
+  - soldier
+  - war
+  - weapon
+  - school
+  - teacher
+  - festival
+  - ceremony
+  - marriage
+  - wedding
+  - flag
+  - bank
+  - treasury
+  - guard
+  - constitution
