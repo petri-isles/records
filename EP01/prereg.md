@@ -78,7 +78,7 @@ Resolution: **hit (1)** if 1.1 ≤ R < 1.5; **partial (0.5)** if R ≥ 1.5 (righ
 > Would you steal if no one could ever know? Predict what they did in the comments.
 
 ## Amendments before the run (append-only, dated)
-- **2026-09-26 19:00 (UTC+3), before any EP01 run — timing of publication only; the design is unchanged.** Decided by Kerim after the post above: the EP01 run logs and the GitHub Release (with `SHA256SUMS.txt`) are published on the day the EP01 video goes public on YouTube, not before. Until then the logs stay private, and their checksums are fixed in the private studio repository as soon as the runs finish, so the published files can be shown to be the ones produced now.
+- **2026-09-26 18:56 (UTC+3), before any EP01 run — timing of publication only; the design is unchanged.** *(Time corrected on 2026-09-26: this line first said 19:00 by mistake. The record: private commit `aa5d21c` 18:56:30, public commit `4f28c1d` 18:57:47, first EP01 run started 18:58:05.)* Decided by Kerim after the post above: the EP01 run logs and the GitHub Release (with `SHA256SUMS.txt`) are published on the day the EP01 video goes public on YouTube, not before. Until then the logs stay private, and their checksums are fixed in the private studio repository as soon as the runs finish, so the published files can be shown to be the ones produced now.
 - The same edit filled in the commit hash and the public post above (placeholders in commit `81971d4`).
 
 ## Deviations (append-only, dated)
